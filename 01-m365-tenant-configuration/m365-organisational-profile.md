@@ -177,10 +177,10 @@ N:B - If a company relocates:
 
 Create a new tenant in the correct region
 Migrate:
-Users
-Mailboxes (Exchange Online)
+Users,
+Mailboxes (Exchange Online),
 Files (SharePoint, OneDrive)
-Reconfigure:
-Domains
-Licenses
+|| Reconfigure:
+Domains,
+Licenses,
 Security policies
