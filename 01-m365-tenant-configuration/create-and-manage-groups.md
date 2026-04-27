@@ -64,6 +64,133 @@ A company creates a **Security Group for Marketing users** and grants that group
 ## 💻 Create Group with PowerShell
 
 ```powershell
+
+
+⚠️ Warning
+Poor nesting = permission issues
+Plan group structure carefully
+
+
+🗑️ Delete a Group
+Admin Center:
+Groups → Active groups
+Select group
+Click Delete
+
+
+PowerShell:
+Remove-MgGroup -GroupId <GroupID>
+
+
+♻️ Restore Groups
+Only Microsoft 365 Groups can be restored
+Recovery window = 30 days
+
+
+🔄 What Gets Restored?
+Group object & members
+Email & calendar
+SharePoint site
+Teams
+Planner
+OneNote
+Power BI workspace
+
+
+
+❌ What Cannot Be Restored
+Security groups
+Distribution groups
+
+
+🎯 Group-Based Licensing
+What is it?
+
+Assign licenses to a group instead of users.
+
+👉 Example:
+
+Assign M365 E3 to "Marketing Group"
+All members automatically get licenses
+
+
+
+⚙️ Benefits
+Automatic license assignment
+Auto removal when users leave group
+No manual admin work
+
+
+📋 Requirements
+Microsoft Entra ID P1 or higher
+Or:
+M365 Business Premium
+M365 E3/E5
+
+
+🧩 Features
+Works with Security Groups
+Supports:
+M365
+EMS
+Dynamics 365
+Can disable specific services (e.g. Yammer)
+
+
+⚡ Key Behaviour
+Changes apply automatically within minutes
+User in multiple groups:
+License counted once
+Conflicts may prevent assignment
+
+
+⚠️ Common Issues
+Not enough licenses
+Conflicting service plans
+Overlapping group memberships
+
+
+🧠 Best Practices
+Use group-based licensing wherever possible
+Use dynamic groups for automation
+Monitor license usage regularly
+Avoid assigning licenses manually unless needed
+
+
+💼 Real-Life Scenarios
+Automatically license new employees
+Assign department-based licenses
+Remove licenses when users leave a team
+Control app access via group membership
+
+
+🔥 Interview Questions
+Q1: Why use group-based licensing?
+
+To automate license assignment and reduce admin effort
+
+Q2: What happens when a user leaves a licensed group?
+
+Their license is automatically removed
+
+Q3: Can all group types be restored?
+
+No, only Microsoft 365 Groups
+
+Q4: Where do you manage group-based licensing?
+
+Microsoft Entra Admin Center
+
+Q5: Why should you assign permissions to groups instead of users?
+
+To simplify management and improve scalability
+
+🧠 Summary
+Groups are essential for managing access and collaboration
+Use proper group types for correct scenarios
+Avoid assigning permissions directly to users
+Use group-based licensing to automate processes
+Plan group structure carefully to avoid issues
 New-MgGroup -DisplayName "Test Group" `
 -MailEnabled:$False `
 -MailNickName "testgroup" `
