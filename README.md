@@ -2,6 +2,8 @@
 
 A structured collection of Microsoft 365 Administrator study notes based on Microsoft Learn, designed for real-world application, interview preparation, and deep technical understanding.
 
+Direct Link: https://learn.microsoft.com/en-us/credentials/certifications/m365-administrator-expert/
+
 ---
 
 ## 🚀 About This Repository
