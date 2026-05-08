@@ -262,6 +262,7 @@ Temporary admin access granted only when needed.
 ## Q3: Difference between eligible and active admin?
 Eligible = can request access.
 Active = currently has elevated access.
+Eligible admins are users that need privileged access periodically, but not all-day, every day. The role is inactive until the user needs access. At that point, the user must complete an activation process to become an active admin for a predetermined amount of time.
 
 ---
 
