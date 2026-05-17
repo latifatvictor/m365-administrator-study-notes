@@ -13,6 +13,8 @@ to synchronize groups and memberships between on-premises AD and Microsoft Entra
 After synchronization is enabled:
 - The source of authority for groups and memberships becomes the on-premises Active Directory.
 
+Directory synchronization enables organizations to synchronize groups and memberships between on-premises Active Directory and Microsoft Entra ID. Group writeback extends this functionality by writing Microsoft 365 groups back into on-premises AD as distribution groups. Microsoft Entra Connect Sync fully supports group writeback, while Microsoft Entra Cloud Sync now supports the feature in preview through newer provisioning agent versions.
+
 ---
 
 # Group Synchronization
