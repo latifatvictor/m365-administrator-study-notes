@@ -1,6 +1,3 @@
-# Suggested File Name
-Configure-Object-Filters-For-Directory-Synchronization.md
-
 # Configure Object Filters for Directory Synchronization
 
 ## Overview
