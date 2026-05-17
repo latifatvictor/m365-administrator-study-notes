@@ -13,7 +13,7 @@ Benefits include:
 - Reduced phishing risks
 - Reduced password fatigue
 
-Source: :contentReference[oaicite:0]{index=0}
+You must have a Microsoft Entra Premium license to have password changes in Microsoft 365 written back to your on-premises AD. The Microsoft 365 licenses that include Microsoft Entra Premium include Microsoft 365 E3 and E5, Microsoft 365 F5, and Microsoft 365 Business Premium.
 
 ---
 
