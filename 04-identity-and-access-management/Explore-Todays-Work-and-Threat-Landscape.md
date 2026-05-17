@@ -1,6 +1,3 @@
-# Suggested File Name
-Explore-Todays-Work-and-Threat-Landscape.md
-
 # Explore Today's Work and Threat Landscape
 
 ## Overview
