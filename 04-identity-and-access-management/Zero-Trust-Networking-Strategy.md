@@ -397,4 +397,4 @@ Correct Answer:
 
 Zero Trust networking assumes breaches are inevitable and requires continuous verification of users, devices, applications, and sessions. Microsoft Entra Conditional Access provides dynamic policy enforcement based on user identity, device compliance, sign-in risk, and session context to secure modern hybrid environments.
 
-Source: :contentReference[oaicite:0]{index=0}
+
