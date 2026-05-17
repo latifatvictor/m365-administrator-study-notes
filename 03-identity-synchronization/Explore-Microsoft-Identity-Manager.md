@@ -2,7 +2,7 @@
 
 ## Overview
 
-Microsoft Identity Manager (MIM) is an identity management solution that helps organizations manage and synchronize user identities across multiple systems and directories. Microsoft Identity Manager (MIM) is an on-premises identity management solution that enables organizations to manage user provisioning, synchronization, password management, workflows, and privileged access across hybrid environments. MIM integrates with Active Directory, HR systems, databases, and cloud services to provide centralized identity lifecycle management, governance, and security automation.
+Microsoft Identity Manager (MIM) is an identity management solution that helps organizations manage and synchronize user identities across multiple systems and directories. Microsoft Identity Manager (MIM) is an on-premises identity management solution that enables organizations to manage user provisioning, synchronization, password management, workflows, and privileged access across hybrid environments. MIM integrates with Active Directory, HR systems, databases, and cloud services to provide centralized identity lifecycle management, governance, and security automation. When preparing your identity management servers for MIM, you must configure the following resources: Windows Servers, SQL Server, and SharePoint Server.
 
 MIM provides capabilities such as:
 - User provisioning
