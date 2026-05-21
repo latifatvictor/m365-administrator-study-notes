@@ -1,0 +1,235 @@
+## Requirements to Create a Sensitivity Label – Microsoft Purview Summary
+
+### Overview:
+To successfully implement sensitivity labels in Microsoft Purview, organizations must complete **three key steps**:
+
+1. ✅ Create labels  
+2. ✅ Configure protection settings  
+3. ✅ Publish labels via label policies  
+
+---
+
+# 🧩 1. Create Sensitivity Labels
+
+### Purpose:
+- Define classification levels for your organization  
+
+---
+
+### Key Requirements:
+
+#### ✅ Use a Clear Classification Taxonomy
+- Base labels on business needs  
+- Example label names:
+  - Public  
+  - General  
+  - Confidential  
+  - Highly Confidential  
+
+---
+
+#### ✅ Use User-Friendly Naming
+- Labels should:
+  - Be clear and intuitive  
+  - Avoid technical jargon  
+
+---
+
+#### ✅ Use Sublabels (Optional)
+- Group labels under categories  
+
+**Example:**
+- Confidential
+  - Confidential – Finance  
+  - Confidential – HR  
+
+---
+
+#### ✅ Provide Tooltips
+- Add descriptions to:
+  - Help users choose the correct label  
+
+---
+
+# 🔐 2. Define Label Protection Settings
+
+### Purpose:
+- Determine what happens when label is applied  
+
+---
+
+### Common Protection Settings:
+
+#### 🔒 Encryption
+- Restrict who can access content  
+- Control permissions (view/edit/print)  
+
+---
+
+#### 💧 Content Markings
+- Watermarks  
+- Headers  
+- Footers  
+
+---
+
+#### 🚫 Access Restrictions
+- Prevent sharing  
+- Limit actions (copy, print, download)  
+
+---
+
+#### ⏳ Data Governance
+- Combine with:
+  - Retention rules  
+  - Data lifecycle policies  
+
+---
+
+### Example Design:
+
+| Label | Protection |
+|-------|-----------|
+| General | Header/footer only |
+| Confidential | Header + restricted sharing |
+| Highly Confidential | Encryption + watermark |
+
+---
+
+# 📢 3. Publish Sensitivity Labels
+
+### Purpose:
+- Make labels available to users and services  
+
+---
+
+### Key Concepts:
+
+#### ✅ Publish via Label Policies
+- Assign labels to:
+  - Users  
+  - Groups  
+
+---
+
+#### ✅ Reusable Labels
+- One label can:
+  - Be used in multiple policies  
+
+---
+
+#### ✅ Phased Rollout
+- Start with:
+  - Pilot group  
+- Then:
+  - Expand to entire organization  
+
+---
+
+# 🔑 4. Licensing Requirements
+
+### Requirement:
+- Users must have:
+  - Microsoft 365 licenses supporting **Information Protection features**
+
+---
+
+### Examples:
+- Microsoft 365 E5 / Compliance / Information Protection plans  
+
+---
+
+# 👤 5. Permissions Required
+
+### Who Can Create Labels:
+
+#### Default:
+- ✅ Global Administrator  
+
+---
+
+#### Recommended Role Groups:
+- Information Protection Admin  
+- Information Protection Analyst  
+- Information Protection Investigator  
+- Information Protection Reader  
+
+---
+
+#### Alternative Roles:
+- Sensitivity Label Administrator  
+- Compliance Administrator  
+- Security Administrator  
+
+---
+
+### Important:
+- ✅ Permissions required to:
+  - Create/configure labels  
+- ❌ NOT required to:
+  - Apply labels in apps  
+
+---
+
+# 🔄 6. End-to-End Workflow
+
+1. Define classification levels  
+2. Create labels  
+3. Configure protection settings  
+4. Create label policies  
+5. Publish labels to users  
+6. Monitor usage and refine  
+
+---
+
+# ✅ Example Scenario:
+
+### Goal:
+Protect company financial data  
+
+---
+
+### Setup:
+- Labels:
+  - General  
+  - Confidential  
+  - Highly Confidential  
+
+---
+
+### Configuration:
+- Confidential:
+  - Header + restricted sharing  
+- Highly Confidential:
+  - Encryption + watermark  
+
+---
+
+### Deployment:
+- Phase 1:
+  - Pilot with finance team  
+- Phase 2:
+  - Roll out company-wide  
+
+---
+
+# ✅ Best Practices:
+
+- ✅ Start with simple label structure  
+- ✅ Use clear naming conventions  
+- ✅ Align labels with business requirements  
+- ✅ Provide user guidance (tooltips/help links)  
+- ✅ Test with pilot groups before full rollout  
+- ✅ Avoid overcomplicating label design  
+
+---
+
+# 🔑 Key Takeaway:
+
+To create sensitivity labels effectively, organizations must:
+
+- Define a clear classification framework  
+- Configure appropriate protection settings  
+- Publish labels through policies to the right users  
+
+➡️ This structured approach ensures **consistent, scalable, and effective data protection across Microsoft 365**
